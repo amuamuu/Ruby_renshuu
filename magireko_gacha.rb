@@ -15,7 +15,7 @@ NR_memoria = ["少女の境界","穏やかな日差し","寄り添い見守る�
             puts "★3[メモリア]"+SR_memoria.sample
         elsif gacha >= 93 && gacha <= 96
             puts "★4[メモリア]"+SSR_memoria.sample
-        elsif gacha >= 97 && gacha < 100
+        elsif gacha >= 97 && gacha <= 99
             puts "★3"+SR.sample
         else
             puts "★4"+SSR.sample
